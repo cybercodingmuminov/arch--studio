@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+.about-text {
+  position: fixed;
+  left: 50px;
+}
+@media (max-width: 1300px) {
+  .about-text {
+    left: 5px;
+  }
+}
+@media (max-width: 650px) {
+  .about-text {
+    display: none;
+  }
+}
+
+main {
+  padding: 0px 5px 0px 35px;
+}
+main .about-wrapper {
+  background-image: url(../img/laptop.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 200px;
+  padding: 217px 0px 0px 482px;
+}
+@media (max-width: 1170px) {
+  main .about-wrapper {
+    padding: 217px 0px 0px 68px;
+  }
+}
+@media (max-width: 550px) {
+  main .about-wrapper {
+    padding: 500px 32px 0px 0px;
+  }
+}
+main .about-wrapper .about-info {
+  max-width: 793px;
+  background: #FFF;
+}
+@media (max-width: 1170px) {
+  main .about-wrapper .about-info {
+    max-width: 572px;
+  }
+}
+main .about-wrapper .about-info h3 {
+  color: #EEEFF4;
+  font-size: 250px;
+  font-weight: 700;
+  line-height: 200px;
+  letter-spacing: -5px;
+  transform: translate(-20px, -100px);
+}
+@media (max-width: 1170px) {
+  main .about-wrapper .about-info h3 {
+    font-size: 120px;
+    letter-spacing: -3px;
+    transform: translate(260px, -100px);
+  }
+}
+@media (max-width: 1100px) {
+  main .about-wrapper .about-info h3 {
+    display: none;
+  }
+}
+main .about-wrapper .about-info .line {
+  width: 65px;
+  height: 1px;
+  flex-shrink: 0;
+  background-color: #C8CCD8;
+  margin: -30px 0px 57px 182px;
+}
+main .about-wrapper .about-info .info-text {
+  padding-left: 182px;
+}
+@media (max-width: 1170px) {
+  main .about-wrapper .about-info .info-text {
+    padding-left: 59px;
+  }
+}
+@media (max-width: 550px) {
+  main .about-wrapper .about-info .info-text {
+    padding-left: 10px;
+  }
+}
+main .about-wrapper .about-info .info-text h4 {
+  color: #1B1D23;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-bottom: 49px;
+}
+@media (max-width: 550px) {
+  main .about-wrapper .about-info .info-text h4 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1.2000000477px;
+  }
+}
+main .about-wrapper .about-info .info-text p {
+  color: #60636D;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+main .our-heritage {
+  max-width: 1110px;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/bridge.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  margin-bottom: 200px;
+}
+@media (max-width: 1055px) {
+  main .our-heritage {
+    background-image: none;
+  }
+}
+main .our-heritage .line {
+  width: 65px;
+  height: 3px;
+  background: #C8CCD8;
+}
+main .our-heritage .our-heritage-list {
+  max-width: 446px;
+  flex-shrink: 0;
+  margin-top: 83px;
+}
+main .our-heritage .our-heritage-list h2 {
+  color: #1B1D23;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-bottom: 51px;
+}
+main .our-heritage .our-heritage-list .text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+main .our-heritage .our-heritage-list .text p {
+  color: #60636D;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+main .the-leaders {
+  max-width: 1110px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 159px;
+}
+@media (max-width: 1180px) {
+  main .the-leaders {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+main .the-leaders h2 {
+  color: #1B1D23;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-right: 13.2%;
+}
+main .the-leaders .the-leaders-list {
+  max-width: 730px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 63px;
+}
+@media (max-width: 795px) {
+  main .the-leaders .the-leaders-list {
+    justify-content: center;
+  }
+}
+main .the-leaders .the-leaders-list .the-leader-img-list {
+  max-width: 350px;
+  height: 399px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+@media (max-width: 360px) {
+  main .the-leaders .the-leaders-list .the-leader-img-list img {
+    max-width: 311px;
+    height: 284px;
+    margin: 0px;
+  }
+}
+@media (max-width: 360px) {
+  main .the-leaders .the-leaders-list .the-leader-img-list .names {
+    margin-left: 20px;
+  }
+}
+main .the-leaders .the-leaders-list .the-leader-img-list h4 {
+  color: #1B1D23;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 0;
+}
+main .the-leaders .the-leaders-list .the-leader-img-list p {
+  color: #1B1D23;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+}/*# sourceMappingURL=about.css.map */

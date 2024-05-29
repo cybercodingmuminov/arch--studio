@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.about-text{
+    position: fixed;
+    left: 50px;
+    @media(max-width: 1300px){
+        left: 5px;
+    }
+    @media(max-width: 650px){
+        display: none;
+    }
+}
+main{
+    padding: 0px 5px 0px 35px;
+    .about-wrapper{
+        background-image: url(../img/laptop.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-bottom: 200px;
+        padding: 217px 0px 0px 482px;
+        @media(max-width: 1170px){
+            padding: 217px 0px 0px 68px;
+        }
+        @media(max-width: 550px){
+            padding: 500px 32px 0px 0px;
+        }
+        .about-info{
+            max-width: 793px;
+            background: #FFF;
+            @media(max-width:1170px){
+                max-width: 572px;
+            }
+            h3{
+                color: #EEEFF4;
+                font-size: 250px;
+                font-weight: 700;
+                line-height: 200px;
+                letter-spacing: -5px;
+                transform: translate( -20px, -100px);
+                @media(max-width: 1170px){
+                    font-size: 120px;
+                    letter-spacing: -3px;
+                    transform: translate( 260px, -100px);
+                }
+                @media(max-width: 1100px){
+                    display: none;
+                }
+            }
+            .line{
+                width: 65px;
+                height: 1px;
+                flex-shrink: 0;
+                background-color: #C8CCD8;
+                margin: -30px 0px 57px 182px;
+            }
+            .info-text{
+                padding-left: 182px;
+                @media(max-width:1170px){
+                    padding-left: 59px;
+                }
+                @media(max-width:550px){
+                    padding-left: 10px;
+                }
+                h4{
+                    color: #1B1D23;
+                    font-size: 72px;
+                    font-weight: 700;
+                    line-height: 64px; 
+                    letter-spacing: -2px;
+                    margin-bottom: 49px;
+                    @media(max-width: 550px){
+                        font-size: 48px;
+                        line-height: 52px;
+                        letter-spacing: -1.2000000476837158px;
+                    }
+                }
+                p{
+                    color: #60636D;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .our-heritage{
+        max-width: 1110px;
+        margin: 200px auto;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/bridge.png);
+        background-repeat: no-repeat;
+        background-position:top right;
+        margin-bottom: 200px;
+        @media(max-width:1055px){
+            background-image: none;
+        }
+    
+        .line{
+            width: 65px;
+            height: 3px;
+            background: #C8CCD8;
+        }
+    
+        .our-heritage-list{
+            max-width: 446px;
+            flex-shrink: 0;
+            margin-top: 83px;
+    
+            h2{
+                color: #1B1D23;
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 64px;
+                letter-spacing: -2px;
+                margin-bottom: 51px;
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                row-gap: 50px;
+                p{
+                    color: #60636D;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px; 
+                }
+            }
+        }
+    }
+    .the-leaders{
+        max-width: 1110px;
+        margin: auto;
+        display: flex;
+        margin-bottom: 159px;
+    
+        @media(max-width:1180px){
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        h2{
+            color: #1B1D23;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 64px; 
+            letter-spacing: -2px;
+            margin-right: 13.2%;
+        }
+    
+        .the-leaders-list{
+            max-width: 730px;
+            display: flex;
+            flex-wrap:wrap;
+            column-gap:30px;
+            row-gap: 63px;
+    
+            @media(max-width:795px){
+                justify-content: center;
+            }
+    
+            .the-leader-img-list{
+                max-width: 350px;
+                height: 399px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+    
+                img{
+                    @media(max-width:360px){
+                        max-width: 311px;
+                        height: 284px;
+                        margin:0px;
+                    }
+                }
+    
+                .names{
+                    @media(max-width:360px){
+                        margin-left: 20px;
+                    }
+                }
+    
+                h4{
+                    color: #1B1D23;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 40px;
+                    margin: 0;
+                }
+                p{
+                    color: #1B1D23;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px; 
+                    margin: 0;
+                }
+            }
+        }
+    }
+    
+}
